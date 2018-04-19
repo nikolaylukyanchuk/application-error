@@ -71,6 +71,7 @@ class ApplicationError extends ExtendableError {
      */
   static pass(err, otherwise) {
     if (this.is(err)) return err;
+    if (err.appError) return  new ApplicationError(err.appError);
     if (this.is(otherwise)) return otherwise;
     const error = new ApplicationError(otherwise);
     return error;
