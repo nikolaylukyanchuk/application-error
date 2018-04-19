@@ -34,7 +34,7 @@ class ApplicationError extends ExtendableError {
     throw this;
   }
 
-  toJson() {
+  toJSON() {
     return {
       status:  this.status,
       code: this.code,
