@@ -1,0 +1,19 @@
+{
+  "name": "application-error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolaylukyanchuk/application-error.git"
+  },
+  "author": "Nikolay Lukyanchuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikolaylukyanchuk/application-error/issues"
+  },
+  "homepage": "https://github.com/nikolaylukyanchuk/application-error#readme"
+}
