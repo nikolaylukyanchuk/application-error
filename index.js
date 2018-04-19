@@ -34,6 +34,16 @@ class ApplicationError extends ExtendableError {
     throw this;
   }
 
+  toJson() {
+    return {
+      status:  this.status,
+      code: this.code,
+      message: this.message,
+      messageCode: this.messageCode,
+      data: this.data
+    }
+  }
+
 
   /**
      * Checks if the argument is an ApplicationError.
